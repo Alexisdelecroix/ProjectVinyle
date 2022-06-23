@@ -1,0 +1,230 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+     box-sizing: border-box;
+ } 
+
+
+ body{
+
+  background-color: #faa719b9;
+ }
+
+ .polist{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    padding: 10px 0;
+    background: linear-gradient(to bottom right, #bf3b26, #faa719, #34854be7);
+    /* position: -webkit-fixed; */
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    width: 100%;
+    z-index: 2;
+  }
+  .groupe{
+    background: rgba(255, 255, 255, 0.815);
+  outline :none;
+  border: none;
+  /* color: rgb(5, 5, 5); */
+  padding: 8px 15px;
+  border-radius: 20px;
+  /* font-size: 14px; */
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-style: italic;
+  color: blue;
+  font-size: 15px;
+  
+}
+
+
+#guigui{
+/* border: 2px solid black; */
+margin-top: 15px;
+padding-bottom: 15px;
+padding: 2px ;
+font-family: 'Akshar', sans-serif;
+text-align: center;
+}
+
+
+ @keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+  .spin {
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    animation-timing-function: linear;}
+        
+.blockvinyle{
+    display: flex;
+   justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+
+.blocktext{
+      
+    padding: 10px 32px;
+        margin: auto;
+      border: solid 4px black;
+        border-radius: 5%;
+        background: transparent;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  color: rgb(0, 0, 0);
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+  height: 500px;
+  width: 420px;
+  
+}
+.blocktext:hover {
+  border-radius: 20% 20% 20% 20% / 10% 10% 10% 10% ;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+
+        
+        
+          
+}
+.imgblock{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+#taille{text-align: center;
+font-size: 20px;
+margin-top: 20px;
+color: black;
+
+    /* border: 3px solid black; */
+}
+
+i{
+    font-size: 30px;
+    color :rgba(0, 0, 0, 0.856)
+}
+
+.bouton{
+    background-color: rgb(238, 176, 42);
+    
+    
+    
+    
+}
+
+.blocktext .button {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.blocktext .button button{
+    /* background-color: orange;
+    margin-top: 15px; */
+
+    background: rgba(255, 255, 255, 0.815);
+    margin-top: 15px;
+  outline :none;
+  border: none;
+  color: rgb(5, 5, 5);
+  padding: 8px 15px;
+  border-radius: 20px;
+  /* font-size: 14px; */
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+
+
+
+}
+
+h1{margin-top: 16px;
+   
+    color: #000000;
+}
+
+a {
+position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) 
+  scaleX(0);
+  transform-origin: 50% 50%;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  transition: transform 250ms;
+}
+a:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+
+
+.svg-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 8%;
+  }
+  .shape1,
+  .shape2 {
+    stroke-dasharray: 1120;
+    stroke-width: 5px;
+    fill: transparent;
+    stroke: rgba(238, 235, 85, 0.815);
+    border-bottom: 5px solid black;
+    transition-timing-function: linear;
+    transition: stroke-dashoffset 4s, stroke-dasharray 4s;
+  }
+  .shape1 {
+    stroke-dashoffset: 1120;
+  }
+  .shape2 {
+    stroke-dashoffset: -1120;
+  }
+  .text {
+  
+    font-size: 35px;
+    line-height: 32px;
+    letter-spacing: 8px;
+    color: rgb(0, 0, 0);
+    top: -48px;
+    position: relative;
+    margin-left: 80px;
+    
+  }
+  .svg-wrapper:hover .shape1,
+  .svg-wrapper:hover .shape2 {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 1120;
+  }
+
+  #taille{text-align: center;
+    font-size: 20px;
+    /* margin-top: 20px; */
+    color: black;
+  }
+
+  #color{
+    color: #000000;
+    margin-top: 10px;
+  }

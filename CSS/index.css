@@ -1,0 +1,245 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: url('../Images/Presentation/fonnd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+
+  a span{
+    position:absolute;                
+} 
+ a span{
+    margin-top:20px;
+    margin-left:-35px;
+} 
+
+ a span{
+   
+    color:#09c;
+    background:rgba(0,0,0,.9);
+    padding:15px;
+    border-radius:3px; 
+
+} 
+
+ a span{
+   
+    transform:scale(0) rotate(-12deg);
+}
+
+a:hover span, a:focus span{
+    transform:scale(1) rotate(0);        
+}
+a span{
+    
+    transition:all .25s;
+}
+a span{
+    
+    opacity:0;
+}
+a:hover span, a:focus span{
+
+    opacity:1;
+}  
+
+
+.btn-5 {
+    border: 1 solid;
+    border-radius: 5%;
+    box-shadow: inset 0 0 20px rgba(236, 231, 231, 0.966);
+    outline: 1px solid;
+    outline-color: rgba(0, 0, 0, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    font-size: 15px;
+    color: rgb(199, 191, 191);
+  padding: 8px;
+  
+
+  cursor: pointer;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  } 
+  
+  .btn-5:hover {
+    border: 2px solid;
+    box-shadow: inset 0 0 20px rgba(20, 19, 19, 0.5), 0 0 20px rgba(195, 223, 96, 0.2);
+    outline-color: rgba(213, 210, 210, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #aeab7e; 
+  }
+
+
+.container-first {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+/* @media screen and ( max-width:1000px) { 
+    h1 {
+    font-size: 40px; }
+} */
+    
+
+    
+h1 {
+    text-transform: uppercase;
+    font-size: 6vw;
+    color: #b4bfdfef;
+    font-family: Abril fatface, sans-serif;
+   
+
+}
+h1 span {
+    position: relative;
+}
+.container-btns {
+    position: relative;
+    top: 30px;
+}
+.btn-first {
+    border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 20px;
+    width: 300px;
+    color: #f1f1f1;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.btn-first:nth-child(1){
+    margin-right: 30px;
+}
+.btn-first:hover {
+    transition: all 0.3s ease-in-out;
+    background: #f1f1f1;
+    color: #333;
+}
+.lignes {
+    position: absolute;
+    top: 8%;
+    left: 16%;
+}
+.l1 {
+    width: 1300px;
+    left: 10%;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    /* margin-left: 200px; */
+}
+.l2 {
+    width: 200px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+
+}
+.l3 {
+    width: 150px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    top: 40px;
+    
+}
+@media screen and (max-width:1000px) { #logo{
+    display: none;
+    /* opacity: 0; */
+}
+    
+}
+#logo {
+    position: absolute;
+    right: 2.8%;
+    top: 6%;
+    width: 120px;
+    height: 130px;
+    cursor: pointer;
+    
+}
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 80%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo-medias {
+    width: 40px;
+    height: 40px;
+}
+
+.polist{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid rgb(255, 255, 255); */
+    padding: 10px 0;
+    background: transparent;
+    /* position: -webkit-fixed; */
+    position: fixed;
+    top: 2%;
+    padding: 5px;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .groupe{
+  outline :none;
+  padding: 8px;
+  
+  /* font-size: 14px; */
+  /* transition: all 0.3s ease; */
+  cursor: pointer;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  color: #e7d3d3e3;
+  
+}
+
+
+
+i{
+    font-size: 30px;
+    color :rgba(0, 0, 0, 0.856)
+}
+    
+    
