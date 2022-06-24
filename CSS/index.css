@@ -10,7 +10,7 @@ body {
     background: #333;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
-    /* background: url('../Images/Presentation/fonnd.jpg'); */
+    background: url('../Images/Presentation/fonnd.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
